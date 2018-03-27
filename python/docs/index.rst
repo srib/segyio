@@ -11,6 +11,15 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+.. automodule:: segyio
+
+.. autosummary::
+    :nosignatures:
+
+    segyio.open
+    segyio.create
+    segyio.SegyFile
+
 
 Indices and tables
 ==================
