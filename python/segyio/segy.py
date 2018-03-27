@@ -232,7 +232,7 @@ class SegyFile(object):
         Returns
         -------
 
-        samples : :class: `~numpy.ndarray` of int
+        samples : :class:`~numpy.ndarray` of int
 
         """
 
