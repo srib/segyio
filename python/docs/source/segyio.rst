@@ -4,12 +4,14 @@ segyio
 Module contents
 ---------------
 
+.. automodule:: segyio
+
 .. autosummary::
     :toctree: stubs
+
     segyio.open
     segyio.create
-
-.. automodule:: segyio
+    segyio.SegyFile
 
 
 Opening and creation
