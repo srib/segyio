@@ -2,6 +2,12 @@ from segyio import Enum
 
 
 class BinField(Enum):
+    """Names for binary header fields and their offsets
+
+    See also
+    -------
+    segyio.su : Seismic unix aliases for header fields
+    """
     JobID = 3201
     LineNumber = 3205
     ReelNumber = 3209
