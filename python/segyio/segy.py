@@ -232,7 +232,7 @@ class SegyFile(object):
         Returns
         -------
 
-        samples : numpy.ndarray of int
+        samples : :class: `~numpy.ndarray` of int
 
         """
 
@@ -534,7 +534,7 @@ class SegyFile(object):
         """Interact with segy in trace mode
 
         This mode gives access to reading and writing functionality for traces.
-        The primary data type is the numpy ndarray. Traces can be accessed
+        The primary data type is ``numpy.ndarray``. Traces can be accessed
         individually or with python slices, and writing is done via assignment.
 
         All examples use ``np`` for ``numpy``.
