@@ -7,11 +7,11 @@ Module contents
 .. automodule:: segyio
 
 .. autosummary::
-    :toctree: stubs
+    :nosignatures:
 
-    segyio.open
-    segyio.create
-    segyio.SegyFile
+    open
+    create
+    SegyFile
 
 
 Opening and creation
