@@ -1,20 +1,26 @@
-segyio package
-==============
+segyio
+======
 
 Module contents
 ---------------
 
 .. automodule:: segyio
+
+
+Open
+----
 .. autofunction:: segyio.open
 .. autofunction:: segyio.create
 
-Modes
------
+File
+----
 
 .. autoclass:: segyio.SegyFile
+    :members:
 
 Enumerators
--------
+-----------
+
 .. autoclass:: segyio.BinField
     :members:
 .. autoclass:: segyio.TraceField
@@ -25,7 +31,7 @@ Enumerators
     :members:
 
 Tools
--------------------
+-----
 
 .. automodule:: segyio.tools
     :members:
