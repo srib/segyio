@@ -18,6 +18,8 @@ Welcome to segyio's documentation!
     segyio.open
     segyio.create
     segyio.SegyFile
+    segyio.SegyFile.iline
+    segyio.SegyFile.xline
 
 
 Indices and tables
