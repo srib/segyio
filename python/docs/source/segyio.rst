@@ -5,31 +5,26 @@ Module contents
 ---------------
 
 .. automodule:: segyio
-
-open
-----
-
 .. autofunction:: segyio.open
-
-create
-------
-
 .. autofunction:: segyio.create
 
-headers
--------
+Modes
+-----
 
+.. autoclass:: segyio.SegyFile
+
+Enumerators
+-------
 .. autoclass:: segyio.BinField
-    :members:
-.. autoclass:: segyio.su
     :members:
 .. autoclass:: segyio.TraceField
     :members:
+.. autoclass:: segyio.su
+    :members:
+.. autoclass:: segyio.TraceSortingFormat
+    :members:
 
-Submodules
-----------
-
-segyio.tools
+Tools
 -------------------
 
 .. automodule:: segyio.tools
