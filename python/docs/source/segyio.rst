@@ -4,19 +4,33 @@ segyio
 Module contents
 ---------------
 
+.. autosummary::
+    :toctree: stubs
+    segyio.open
+    segyio.create
+
 .. automodule:: segyio
 
 
-Open
-----
+Opening and creation
+--------------------
+
 .. autofunction:: segyio.open
 .. autofunction:: segyio.create
 
-File
-----
+File operations
+---------------
 
 .. autoclass:: segyio.SegyFile
     :members:
+
+Tools
+-----
+
+.. automodule:: segyio.tools
+    :members:
+    :undoc-members:
+    :show-inheritance:
 
 Enumerators
 -----------
@@ -29,11 +43,3 @@ Enumerators
     :members:
 .. autoclass:: segyio.TraceSortingFormat
     :members:
-
-Tools
------
-
-.. automodule:: segyio.tools
-    :members:
-    :undoc-members:
-    :show-inheritance:
